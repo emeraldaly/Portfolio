@@ -1,0 +1,31 @@
+html, body, div {margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline;}
+
+a:link {color: blue;
+		background-color: transparent;
+		text-decoration: none}
+a:visited {color: orange ;
+			background-color: 
+			transparent;text-decoration: none}
+a:hover {color: green ;
+		background-color: transparent;
+		text-decoration: underline}
+a:Active {color: yellow ;
+			background-color: transparent;
+			text-decoration: underline}
+
+h1, h2, h3 {font-family: Cambria;
+			color: black; }
+
+h1 {font:32px;}
+h2 {font:16px;}
+h3 {font:12px;}
+
+p {}
+
+
+
+#header {}
+
+#nav-menu {}
+
+#main-content {}

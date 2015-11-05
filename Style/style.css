@@ -1,9 +1,29 @@
-html, body, div {margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline;}
+link
+nav
+head
+title
+h1
+h2
+body {background-image: url("backgroundgrey.jpg");
+	background-color: blue;
+	}
+article
+table
+p 
+a href (link)
+iframe (video)
+section
+table
+form
+list
+block quote
+
+html, body, div {margin: 6; padding: 6; border: 6; font-size: 100%; vertical-align: baseline;}
 
 a:link {color: blue;
 		background-color: transparent;
 		text-decoration: none}
-a:visited {color: orange ;
+a:visited {color: red ;
 			background-color: 
 			transparent;text-decoration: none}
 a:hover {color: green ;
@@ -13,14 +33,18 @@ a:Active {color: yellow ;
 			background-color: transparent;
 			text-decoration: underline}
 
-h1, h2, h3 {font-family: Cambria;
-			color: black; }
+h1, h2, h3, h4 {font-style: Helvetica, Verdana, sans-serif}
 
-h1 {font:32px;}
-h2 {font:16px;}
+h1 {font:32px; font-style: bold}
+h2 {font:16px; font-style: bold}
 h3 {font:12px;}
+h4 {font: 18px; font-style: italics}
 
-p {}
+p {style="text-align: left;" 
+	align="center;"
+	font-style: Helvetica, Verdana, sans-serif"}
+
+img
 
 
 

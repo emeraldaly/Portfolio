@@ -1,59 +1,84 @@
-head {}
+/*Use Google Fonts for headline, sub-headline, and body text*/
+h1		
+{
+	font-family: 'Bitter', serif;
+	color: #333;
+}
+h2		
+{
+	font-family: 'Merriweather', serif;
+	color: #333;
+}
+/*add a background page*/
+body
+{
+	margin: 10;
+	padding: 5;
+	color: #333;
+	background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/subtle_white_feathers.png');
+	background-color: #7cb9e8;
+	font-family: 'Lora', serif;
+  	font-size: 14px;
+}
+/*apply class groupings*/
+h1,h2,h3,h4
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
+}
 
-body {
-		background-color: #00CCFF
-        font-family: 'Merriweather', serif;
-  font-size: 16px;
-      }
-link
-nav
-head
-title
-h1
-h2
-article
+h1 { font-size: 2.25em; } /* 36px */
+h2 { font-size: 1.75em; } /* 28px */
+h3 { font-size: 1.375em; } /* 22px */
+h4 { font-size: 1.125em; } /* 18px */
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+blockquote
+{
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 5px solid #eee;
+}
+
 table
-p 
-a href (link)
-iframe (video)
-section
-table
-form
-list
-block quote
+{
+	background-color: transparent;
+	border-spacing: 0;
+	border-top: 1px solid #ddd;
+}
 
-html, body, div {margin: 6; padding: 6; border: 6; font-size: 100%; vertical-align: baseline;}
+img 
+{
+    float: right;
+    margin: 0 0 10px 10px;
+}
 
-a:link {color: blue;
-		background-color: transparent;
-		text-decoration: none}
-a:visited {color: red ;
-			background-color: 
-			transparent;text-decoration: none}
-a:hover {color: green ;
-		background-color: transparent;
-		text-decoration: underline}
-a:Active {color: yellow ;
-			background-color: transparent;
-			text-decoration: underline}
+th, td
+{
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
 
-h1, h2, h3, h4 {font-style: Arimo, Verdana, sans-serif}
+a:link { color: #333399; background-color: transparent; text-decoration: none}
+a:visited { color: #cc3366 ; background-color: transparent;text-decoration: none }
+a:focus { color: #006699 ; background-color: transparent;text-decoration: underline}
+a:hover { color: #009999; background-color: transparent;text-decoration: underline}
+a:active { color: #990000; background-color: transparent;text-decoration: underline}
 
-h1 {font:16px; font-style: bold}
-h2 {font:18px; font-style: bold}
-h3 {font:12px;}
-h4 {font: 12px; font-style: italics}
+div.alyfacts 
+{	
 
-p {style="text-align: left;" 
-	align="center;"
-	font-style: Arimo, Verdana, sans-serif"}
+}
 
-img
-
-
-
-#header {}
-
-#nav-menu {}
-
-#main-content {}
+div.anecdotes
+{
+	
+}
